@@ -37,3 +37,33 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+//=======================================================
+
+//Stack (Primitive), Heap(Non-Primitive)
+
+let myLanguage = "Odia"
+
+let anotherLanguage=myLanguage;
+
+anotherLanguage = "Hindi";
+
+console.log(myLanguage);
+console.log(anotherLanguage);
+
+
+let userOne={
+    email: "anil@gmail.com",
+    name: "anil",
+}
+
+
+let userTwo=userOne
+
+userTwo.email = "anilkumar@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
